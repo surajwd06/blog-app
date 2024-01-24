@@ -91,7 +91,7 @@ const SignUp = () => {
               type="submit"
               disabled={loading}
             >
-              Sugn up
+              Sugn in
             </Button>
           </form>
           <div className="flex gap-2 text-sm mt-5">
@@ -103,7 +103,7 @@ const SignUp = () => {
                   <span>Loading...</span>
                 </>
               ) : (
-                "Sign in"
+                "Sign up"
               )}
             </Link>
           </div>
